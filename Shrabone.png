@@ -7,7 +7,7 @@ from PIL import Image
 text = open(r'C:\Users\dell\Desktop\Text.txt', mode='r', encoding='utf-8').read() 
 
 # Load the image mask
-mask = np.array(Image.open(r'C:\Users\dell\Desktop\Ifti.png'))
+mask = np.array(Image.open(r'C:\Users\dell\Desktop\Shrabone.png'))
 
 # Create the WordCloud object with an outline
 wc = WordCloud(
